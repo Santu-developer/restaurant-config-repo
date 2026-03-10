@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: default
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
