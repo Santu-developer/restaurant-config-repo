@@ -1,0 +1,16 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: restaurant-kitchen-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/kitchen_db
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
